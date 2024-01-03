@@ -1,9 +1,15 @@
+#task_3
+number = (int(input("Sonni kiriting : "))
+l = [10,7,4,9,2]
+def append(numb,lst):
+    for num in lst:
+        if num == numb:
+            list.remove(num)
+            list.append(num)
+            print(lst)
+
+        else:
+            print("Bu son yo'q")
 
 
-def cars():
-
- i = int(input("Enter any number:"))
- y = i // 5
- print(y)
-
-cars()
+append(numb=number,lst=list)
